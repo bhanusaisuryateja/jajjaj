@@ -46,7 +46,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>api</finalName>
+		<finalName>pipeline</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -63,7 +63,7 @@
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.1</version>
 				<configuration>
-					<path>/api</path>
+					<path>/pipeline</path>
 				</configuration>
 			</plugin>
 
